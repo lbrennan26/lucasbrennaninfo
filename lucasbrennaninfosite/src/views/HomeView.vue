@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <v-app>
+      <v-app-bar :elevation="2"></v-app-bar>
+    </v-app>
   </main>
 </template>
