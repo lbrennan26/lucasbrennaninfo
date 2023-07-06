@@ -1,14 +1,11 @@
-<script setup>
-</script>
-
 <template>
-  <main>
-<v-container>
+    <div>
   <v-card>
-    hello
-    </v-card>
-</v-container>
-</main>
+    <v-card-text>
+      hello world!
+    </v-card-text>
+  </v-card>
+</div>
 </template>
 
 <style>
