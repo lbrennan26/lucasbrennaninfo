@@ -11,7 +11,7 @@ function goToHome() {
 </script>
 
 <template>
-  <v-app>
+  <v-layout class="rounded rounded-md">
     <v-app-bar 
         app
         :elevation="2">
@@ -22,13 +22,14 @@ function goToHome() {
           About Me
           </v-btn>
       </v-app-bar>
-      <v-main>
+      <v-main class="d-flex align-center justify-center">
         <v-container fluid>
           <RouterView />
         </v-container>
       </v-main>
-</v-app>
+    </v-layout>
 </template>
 
 <style scoped>
+
 </style>
