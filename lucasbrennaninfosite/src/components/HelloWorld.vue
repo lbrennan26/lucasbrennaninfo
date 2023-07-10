@@ -8,7 +8,7 @@
           >
             <v-card
               rounded="lg"
-              min-height="268"
+              class="mx-auto"
             >
               <v-card-text>
                 Hi, I'm Lucas Brennan. A Software Developer in the fintech industry.
