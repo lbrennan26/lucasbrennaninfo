@@ -1,15 +1,15 @@
 <template>
     <v-app-bar
       class="px-3"
-      color="white"
-      :elevation="2"
+      color="#212121"
+      :elevation="5"
       density="compact"
     >
     <v-btn @click.stop="goToHome">
-          Home
+          Career
      </v-btn>
      <v-btn @click.stop="goToAbout">
-          About Me
+          Life
     </v-btn>
   </v-app-bar>
 </template>
@@ -18,7 +18,7 @@
 import { useRouter } from 'vue-router';
 const router = useRouter()
 function goToAbout() {
-  router.push('/about')
+  router.push('/life')
 }
 function goToHome() {
   router.push('/')

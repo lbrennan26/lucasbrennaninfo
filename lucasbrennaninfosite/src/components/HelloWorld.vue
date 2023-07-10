@@ -6,36 +6,52 @@
             cols="12"
             sm="2"
           >
-            <v-sheet
+            <v-card
               rounded="lg"
               min-height="268"
             >
-              <!--  -->
-            </v-sheet>
+              <v-card-text>
+                Hi, I'm Lucas Brennan. A Software Developer in the fintech industry.
+              </v-card-text>
+
+              <v-card-actions>
+                <v-btn 
+                variant="tonal" 
+                href="Resume.pdf" 
+                download
+                ripple
+                prepend-icon="mdi-paperclip"
+                class="justify-center"
+                >
+                Resume
+              </v-btn>
+              </v-card-actions>
+              
+            </v-card>
           </v-col>
 
           <v-col
             cols="12"
             sm="8"
           >
-            <v-sheet
+            <v-card
               min-height="70vh"
               rounded="lg"
             >
               <!--  -->
-            </v-sheet>
+            </v-card>
           </v-col>
 
           <v-col
             cols="12"
             sm="2"
           >
-            <v-sheet
+            <v-card
               rounded="lg"
               min-height="268"
             >
             
-            </v-sheet>
+            </v-card>
           </v-col>
         </v-row>
     </v-responsive>
@@ -45,3 +61,4 @@
 <script setup>
   //
 </script>
+
