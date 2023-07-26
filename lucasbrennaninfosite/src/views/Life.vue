@@ -1,8 +1,14 @@
 <template>
-    <HelloWorld />
+      <v-container class="fill-height">
+    <v-responsive class="overlay align-center text-center fill-height">
+        COMING SOON
+      </v-responsive>
+      </v-container>
   </template>
   
   <script setup>
-    import HelloWorld from '@/components/HelloWorld.vue'
+    //
   </script>
+  <style>
+</style>
   

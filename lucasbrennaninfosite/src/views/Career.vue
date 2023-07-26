@@ -6,13 +6,25 @@
             cols="12"
             sm="2"
           >
-
-              <v-text class="main-text">
+             <div class="main-text pb-6">
                 Hi, I'm Lucas Brennan.
-              </v-text>
+              </div>
 
-
-                <v-btn 
+          </v-col>
+          <v-spacer></v-spacer>
+        </v-row>
+        <v-row>
+          <v-col 
+          cols ="12"
+          sm="12">
+          <Timeline></Timeline>
+          </v-col>
+        </v-row>
+        <v-row>
+          <v-col
+          cols="12"
+            sm="2">
+            <v-btn 
                 variant="tonal" 
                 href="Resume.pdf" 
                 download
@@ -22,13 +34,6 @@
                 >
                 Resume
               </v-btn>
-          </v-col>
-        </v-row>
-        <v-row>
-          <v-col 
-          cols ="12"
-          sm="12">
-          <Timeline></Timeline>
           </v-col>
         </v-row>
     </v-responsive>

@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app basic-back>
     <default-bar />
 
     <default-view />
@@ -10,3 +10,10 @@
   import DefaultBar from './AppBar.vue'
   import DefaultView from './View.vue'
 </script>
+
+<style>
+.basic-back{
+  background: url("~@/assets/peakpx.jpg") no-repeat center center fixed !important;
+  background-size: cover;
+}
+</style>
