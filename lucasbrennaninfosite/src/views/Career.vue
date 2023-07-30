@@ -26,8 +26,7 @@
             sm="2">
             <v-btn 
                 variant="tonal" 
-                href="Resume.pdf" 
-                download
+                @click.prevent="openResume()"
                 ripple
                 prepend-icon="mdi-paperclip"
                 class="justify-center"
@@ -42,6 +41,9 @@
 
 <script setup>
   import Timeline from '@/components/Timeline.vue';
+  function openResume() {
+    window.open("Resume.pdf", '_blank');
+  }
 </script>
 <style>
   .main-text {
