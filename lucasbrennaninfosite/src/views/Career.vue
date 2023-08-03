@@ -1,18 +1,22 @@
 <template>
   <v-container class="fill-height">
     <v-responsive class="align-center text-center fill-height">
-      <v-row>
+      <v-row align="start" justify="center">
           <v-col
-            cols="12"
-            sm="2"
           >
-             <div class="main-text pb-6">
+             <div class="main-text">
                 Hi, I'm Lucas Brennan.
               </div>
-
           </v-col>
-          <v-spacer></v-spacer>
         </v-row>
+
+        <v-row align="center">
+          <v-col>
+            <CoverPhoto></CoverPhoto>
+          </v-col>
+        </v-row>
+      
+        <v-spacer></v-spacer>
         <v-row>
           <v-col 
           cols ="12"
@@ -40,7 +44,8 @@
 </template>
 
 <script setup>
-  import Timeline from '@/components/Timeline.vue';
+  import CoverPhoto from '@/components/CoverPhoto.vue';
+import Timeline from '@/components/Timeline.vue';
   function openResume() {
     window.open("Resume.pdf", '_blank');
   }
